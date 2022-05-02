@@ -384,7 +384,7 @@
   font-weight: 700;
 }
 #toolbar {
-  background-color: #138496;
+  background-color: var(--bio-color);
   color: #fff;
   font-size: 12px;
 }
