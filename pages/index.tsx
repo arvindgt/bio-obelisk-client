@@ -232,7 +232,7 @@ const Home: NextPage = () => {
                 <span className="slider-subheading">
                   <span className="bio-text">Bio</span> Obelisk</span>
               </h1>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s
                 standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
                 it to make</p>
               <button className="btn btn-info btn-biolink">Shop now</button>
@@ -250,7 +250,7 @@ const Home: NextPage = () => {
               <div className="mr-5">
                 <h2 className="font-size-30 text-capitalise">our vision</h2>
                 <p className="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text ever since the 1500s</p>
+                  industry&apos;s standard dummy text ever since the 1500s</p>
                 <button className="btn btn-info btn-biolink">know more</button>
               </div>
 
@@ -373,7 +373,7 @@ const Home: NextPage = () => {
           <div className="row d-flex justify-content-center pt-5 pb-5">
             <div className="col-8 text-center">
               <h2 className="text-capitalise mt-3 font-weight-bold">Ready to start learning? Contact us</h2>
-              <p className="mt-3 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              <p className="mt-3 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s
                 standard dummy text ever since the 1500s</p>
               <div className="buttons d-flex justify-content-around mb-4">
                 <button className="btn btn-info btn-biolink">know more</button>
