@@ -1,6 +1,6 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type { NextPage } from 'next';
+// import Head from 'next/head'
+// import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
@@ -515,6 +515,7 @@ const Home: NextPage = () => {
       <section className="branding">
 
       </section>
+
       <section className="footer pt-5 pb-5 mt-5">
         <div className="container pt-5 pb-5">
           <footer>
