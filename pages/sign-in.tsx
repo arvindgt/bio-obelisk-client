@@ -11,7 +11,7 @@ const SignIn: NextPage = () => {
                                 <h1>Welcome To</h1>
                                 <h2>Bio Obelisk</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                    the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley
                                     of type and scrambled it to make</p>
                             </div>
 
@@ -24,7 +24,7 @@ const SignIn: NextPage = () => {
                                 <form className="mt-4">
                                     <div className="form-group">
                                         <input type="email" className="form-control bio-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                                        <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        <small id="emailHelp" className="form-text text-muted">We&apos;ll never share your email with anyone else.</small>
                                     </div>
                                     <div className="form-group">
                                         <input type="password" className="form-control bio-input" id="exampleInputPassword1" placeholder="Password" />
