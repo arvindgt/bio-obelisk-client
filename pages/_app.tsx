@@ -1,5 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/globals.css';
+import 'bootstrap/scss/bootstrap.scss';
+import "bootstrap-icons/font/bootstrap-icons.scss";
+import '../styles/globals.scss';
 // import '../styles/Home.module.css';
 import type { AppProps } from 'next/app';
 import Layout from '../components/layouts/layout';

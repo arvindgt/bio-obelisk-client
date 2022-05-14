@@ -44,15 +44,15 @@ const SignIn: NextPage = () => {
                                     <hr className="mt-3 mb-3" />
                                     <div className="row">
                                         <div className="col-md-4">
-                                            <button type="submit" className="btn facebook btn-lg btn-block mt-3 common-btn">
+                                            <button type="submit" className="btn facebook btn-lg btn-block mt-3 common-btn social-icons">
                                                 <i className="bi bi-facebook"></i> Facebook</button>
                                         </div>
                                         <div className="col-md-4">
-                                            <button type="submit" className="btn google btn-lg btn-block mt-3 common-btn">
+                                            <button type="submit" className="btn google btn-lg btn-block mt-3 common-btn social-icons">
                                                 <i className="bi bi-google"></i> Google</button>
                                         </div>
                                         <div className="col-md-4">
-                                            <button type="submit" className="btn linkedin btn-lg btn-block mt-3 common-btn">
+                                            <button type="submit" className="btn linkedin btn-lg btn-block mt-3 common-btn social-icons">
                                                 <i className="bi bi-linkedin"></i> Linkedin</button>
                                         </div>
                                     </div>

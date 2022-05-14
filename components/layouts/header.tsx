@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import Link from 'next/link'
 
 const Header: NextPage = () => {
     return (
@@ -25,8 +26,14 @@ const Header: NextPage = () => {
                                 <aside id="login-popup-2" className="widget widget_login-popup">
                                     <div className="thim-widget-login-popup thim-widget-login-popup-base template-base">
                                         <div className="thim-link-login thim-login-popup">
-                                            <a className="register js-show-popup" href="register.html">Register</a>
-                                            <a className="login js-show-popup" href="Login.html">Login</a>
+                                            <Link href="/sign-up">
+                                                <a className="register js-show-popup">
+                                                    Register
+                                                </a>
+                                            </Link>
+                                            <Link href="/sign-in">
+                                                <a className="login js-show-popup">Login</a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </aside>
@@ -40,14 +47,18 @@ const Header: NextPage = () => {
                     <div className="navigation col-sm-12">
                         <div className="tm-table">
                             <div className="width-logo table-cell sm-logo">
-                                <a href="index.html" title="Education WP - Demo 2 - Education WordPress Theme" rel="home" className="thim-logo">
-                                    <img src="/images/logo.png" className="brand-logo logo-icon" alt="Bioobelisk logo" />
-                                </a>
+                                <Link href="/">
+                                    <a title="Education WP - Demo 2 - Education WordPress Theme" rel="home" className="thim-logo">
+                                        <img src="/images/logo.png" className="brand-logo logo-icon" alt="Bioobelisk logo" />
+                                    </a>
+                                </Link>
                             </div>
                             <nav className="width-navigation table-cell table-right">
                                 <ul className="nav navbar-nav menu-main-menu">
                                     <li className="menu-item tc-menu-depth-0">
-                                        <a href="#" className="tc-menu-inner">Home</a>
+                                        <Link href="/">
+                                            <a className="tc-menu-inner">Home</a>
+                                        </Link>
                                     </li>
                                     <li className="menu-item tc-menu-depth-0">
                                         <a href="#" className="tc-menu-inner">About</a>
