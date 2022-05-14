@@ -1,11 +1,15 @@
 import type { NextPage } from 'next';
 import { Fragment } from 'react';
-// import Head from 'next/head'
-// import Image from 'next/image'
+import Head from 'next/head'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
     <Fragment>
+      <Head>
+        <title>Bio-Obelisk</title>
+        <meta name="description" content="Biology Tutorials" />
+      </Head>
       <section className="bio-slider d-flex flex-column justify-content-center align-items-center">
         <div className="container slider-container ">
           <div className="row">
@@ -27,7 +31,7 @@ const Home: NextPage = () => {
         <article className="bio-vision mt-5">
           <div className="row">
             <div className="col-sm-6 col-md-6 col-lg-6 text-center">
-              <img className="bio-vision-image" src="/images/bioobselink-Recovered_09.png" alt="our vision image" />
+              <Image className="bio-vision-image" src="/images/bioobselink-Recovered_09.png" alt="our vision image" width="350" height="350" />
             </div>
             <div className="col-sm-5 col-md-5 col-lg-5 d-flex align-items-center">
               <div className="mr-5">
@@ -53,7 +57,7 @@ const Home: NextPage = () => {
           <div className="row">
             <div className="col-md-3">
               <div className="card mb-4 box-shadow p-3 course-items">
-                <img className="card-img-top mb-4" src="/images/bioobselink-Recovered_13.png" />
+                <Image className="card-img-top mb-4" src="/images/bioobselink-Recovered_13.png" width="200" height="200" />
                 <div className="card-body p-0">
                   <p className="card-text font-weight-bold mb-3">Introduction to biology...</p>
                   <a href="http://" className="text-uppercase">enroll</a>
@@ -62,7 +66,7 @@ const Home: NextPage = () => {
             </div>
             <div className="col-md-3">
               <div className="card mb-4 box-shadow p-3 course-items">
-                <img className="card-img-top mb-4" src="/images/bioobselink-Recovered_17.png" />
+                <Image className="card-img-top mb-4" src="/images/bioobselink-Recovered_17.png" width="200" height="200"/>
                 <div className="card-body p-0">
                   <p className="card-text font-weight-bold mb-3">Introduction to biology...</p>
                   <a href="http://" className="text-uppercase">enroll</a>
@@ -71,7 +75,7 @@ const Home: NextPage = () => {
             </div>
             <div className="col-md-3">
               <div className="card mb-4 box-shadow p-3 course-items">
-                <img className="card-img-top mb-4" src="/images/bioobselink-Recovered_15.png" />
+                <Image className="card-img-top mb-4" src="/images/bioobselink-Recovered_15.png" width="200" height="200"/>
                 <div className="card-body p-0">
                   <p className="card-text font-weight-bold mb-3">Introduction to biology...</p>
                   <a href="http://" className="text-uppercase">enroll</a>
@@ -80,7 +84,7 @@ const Home: NextPage = () => {
             </div>
             <div className="col-md-3">
               <div className="card mb-4 box-shadow p-3 course-items">
-                <img className="card-img-top mb-4" src="/images/bioobselink-Recovered_19.png" />
+                <Image className="card-img-top mb-4" src="/images/bioobselink-Recovered_19.png" width="200" height="200"/>
                 <div className="card-body p-0">
                   <p className="card-text font-weight-bold mb-3">Introduction to biology...</p>
                   <a href="http://" className="text-uppercase">enroll</a>
@@ -107,7 +111,7 @@ const Home: NextPage = () => {
           <div className="row">
             <div className="col-md-3">
               <div className="card mb-4 box-shadow border-0 master-programme-item">
-                <img className="card-img-top mb-4" src="/images/bioobselink-Recovered_26.png" />
+                <Image className="card-img-top mb-4" src="/images/bioobselink-Recovered_26.png" width="200" height="200" />
                 <div className="card-body">
                   <p className="card-text font-weight-bold mb-3">Introduction to biology...</p>
                   <div className="enroll-btn">
@@ -118,7 +122,7 @@ const Home: NextPage = () => {
             </div>
             <div className="col-md-3">
               <div className="card mb-4 box-shadow border-0 master-programme-item">
-                <img className="card-img-top mb-4" src="/images/bioobselink-Recovered_28.png" />
+                <Image className="card-img-top mb-4" src="/images/bioobselink-Recovered_28.png" width="200" height="200"/>
                 <div className="card-body">
                   <p className="card-text font-weight-bold mb-3">Introduction to biology...</p>
                   <div className="enroll-btn">
@@ -129,7 +133,7 @@ const Home: NextPage = () => {
             </div>
             <div className="col-md-3">
               <div className="card mb-4 box-shadow border-0 master-programme-item">
-                <img className="card-img-top mb-4" src="/images/bioobselink-Recovered_30.png" />
+                <Image className="card-img-top mb-4" src="/images/bioobselink-Recovered_30.png" width="200" height="200"/>
                 <div className="card-body">
                   <p className="card-text font-weight-bold mb-3">Introduction to biology...</p>
                   <div className="enroll-btn">
@@ -140,7 +144,7 @@ const Home: NextPage = () => {
             </div>
             <div className="col-md-3">
               <div className="card mb-4 box-shadow border-0 master-programme-item">
-                <img className="card-img-top mb-4" src="/images/bioobselink-Recovered_32.png" />
+                <Image className="card-img-top mb-4" src="/images/bioobselink-Recovered_32.png" width="200" height="200"/>
                 <div className="card-body">
                   <p className="card-text font-weight-bold mb-3">Introduction to biology...</p>
                   <div className="enroll-btn">
@@ -178,22 +182,22 @@ const Home: NextPage = () => {
           </div>
           <div className="certification-videos">
             <div className="cerficate-items row-one-column-one">
-              <img className="w-100" src="/images/bioobselink-Recovered_42.png" alt="" />
+              <Image className="w-100" src="/images/bioobselink-Recovered_42.png" alt="" width="200" height="200"/>
             </div>
             <div className="cerficate-items row-one-column-two">
-              <img className="w-100" src="/images/bioobselink-Recovered_42.png" alt="" />
+              <Image className="w-100" src="/images/bioobselink-Recovered_42.png" alt="" width="200" height="200"/>
             </div>
             <div className="cerficate-items row-two-column-one">
-              <img className="w-100" src="/images/bioobselink-Recovered_46.png" alt="" />
+              <Image className="w-100" src="/images/bioobselink-Recovered_46.png" alt="" width="200" height="200"/>
             </div>
             <div className="cerficate-items row-two-column-two">
-              <img className="w-100" src="/images/bioobselink-Recovered_48.png" alt="" />
+              <Image className="w-100" src="/images/bioobselink-Recovered_48.png" alt="" width="200" height="200"/>
             </div>
             <div className="cerficate-items row-two-column-three">
-              <img className="w-100" src="/images/bioobselink-Recovered_50.png" alt="" />
+              <Image className="w-100" src="/images/bioobselink-Recovered_50.png" alt="" width="200" height="200"/>
             </div>
             <div className="cerficate-items row-two-column-four">
-              <img className="w-100" src="/images/bioobselink-Recovered_52.png" alt="" />
+              <Image className="w-100" src="/images/bioobselink-Recovered_52.png" alt="" width="200" height="200"/>
             </div>
           </div>
         </section>
@@ -258,7 +262,7 @@ const Home: NextPage = () => {
 
               <div className="col-md-12 col-sm-12 experts-list">
                 <div className="expert-image">
-                  <img className="imagerounded-circle" src="/images/shutterstock_648907024.jpg" alt="experts" />
+                  <Image className="imagerounded-circle" src="/images/shutterstock_648907024.jpg" alt="experts" width="200" height="200"/>
                 </div>
               </div>
 
@@ -268,7 +272,7 @@ const Home: NextPage = () => {
             <div className="col-md-3 col-sm-3 text-center">
               <div className="col-md-12 col-sm-12 experts-list">
                 <div className="expert-image">
-                  <img className="imagerounded-circle" src="/images/images.jpg" alt="experts" />
+                  <Image className="imagerounded-circle" src="/images/images.jpg" alt="experts" width="200" height="200"/>
                 </div>
               </div>
               <p className="font-weight-bold m-0 pt-2">Abhiram Tiyu</p>
@@ -277,7 +281,7 @@ const Home: NextPage = () => {
             <div className="col-md-3 col-sm-3 text-center">
               <div className="col-md-12 col-sm-12 experts-list">
                 <div className="expert-image">
-                  <img className="imagerounded-circle" src="/images/images2.jpg" alt="experts" />
+                  <Image className="imagerounded-circle" src="/images/images2.jpg" alt="experts" width="200" height="200"/>
                 </div>
               </div>
               <p className="font-weight-bold m-0 pt-2">Abhiram Tiyu</p>
@@ -286,7 +290,7 @@ const Home: NextPage = () => {
             <div className="col-md-3 col-sm-3 text-center">
               <div className="col-md-12 col-sm-12 experts-list">
                 <div className="expert-image">
-                  <img className="imagerounded-circle" src="/images/193061246.jpg" alt="experts" />
+                  <Image className="imagerounded-circle" src="/images/193061246.jpg" alt="experts" width="200" height="200"/>
                 </div>
               </div>
               <p className="font-weight-bold m-0 pt-2">Abhiram Tiyu</p>

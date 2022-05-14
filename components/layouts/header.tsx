@@ -1,5 +1,6 @@
 import { NextPage } from "next";
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Header: NextPage = () => {
     return (
@@ -49,7 +50,7 @@ const Header: NextPage = () => {
                             <div className="width-logo table-cell sm-logo">
                                 <Link href="/">
                                     <a title="Education WP - Demo 2 - Education WordPress Theme" rel="home" className="thim-logo">
-                                        <img src="/images/logo.png" className="brand-logo logo-icon" alt="Bioobelisk logo" />
+                                        <Image src="/images/logo.png" className="brand-logo logo-icon" alt="Bioobelisk logo" width="150" height="150" />
                                     </a>
                                 </Link>
                             </div>
